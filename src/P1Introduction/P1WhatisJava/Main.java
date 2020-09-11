@@ -1,4 +1,4 @@
-package P1Introduction.WhatisJava;
+package P1Introduction.P1WhatisJava;
 
 public class Main {
 }
