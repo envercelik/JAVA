@@ -12,6 +12,10 @@ public class Car {
     //constructors
     public Car() {
         //default constructor
+
+        //set default values
+        this(0,0,"none","none","none");
+
     }
 
     public Car(int doors, int wheels, String model, String engine, String colour) {

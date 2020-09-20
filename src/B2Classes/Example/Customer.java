@@ -1,17 +1,20 @@
-package B2Classes.Example3;
+package B2Classes.Example;
 
 public class Customer {
 
-    private int number;
+    private String identityNumber;
+    private String password;
     private String name;
     private String email;
     private String phoneNumber;
     private Account account;
 
 
-    public Customer(int number, String name, String email, String phoneNumber , Account account) {
+    //constructor
+    public Customer(String identityNumber,String password, String name, String email, String phoneNumber , Account account) {
 
-        setNumber(number);
+        setIdentityNumber(identityNumber);
+        setPassword(password);
         setName(name);
         setEmail(email);
         setPhoneNumber(phoneNumber);
@@ -20,13 +23,21 @@ public class Customer {
     }
 
 
-
-    public int getNumber() {
-        return number;
+    //getter and setters
+    public String getIdentityNumber() {
+        return identityNumber;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setIdentityNumber(String identityNumber) {
+        this.identityNumber = identityNumber;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getName() {
@@ -61,17 +72,5 @@ public class Customer {
         this.account = account;
     }
 
-    @Override
-    public String toString() {
 
-
-
-        return "Customer{" +
-                "number=" + number +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                account.toString() +
-                '}';
-    }
 }

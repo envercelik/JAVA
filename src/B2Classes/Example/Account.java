@@ -1,4 +1,4 @@
-package B2Classes.Example3;
+package B2Classes.Example;
 
 public class Account {
 

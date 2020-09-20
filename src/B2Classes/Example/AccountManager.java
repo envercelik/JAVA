@@ -1,9 +1,9 @@
-package B2Classes.Example3;
+package B2Classes.Example;
 
-public class ProsesManager {
+public class AccountManager {
 
 
-    public static void deposit (Account account , double depositAmount) {
+    public void deposit (Account account , double depositAmount) {
 
 
         account.setBalance( account.getBalance() +  depositAmount );
@@ -12,7 +12,7 @@ public class ProsesManager {
 
 
 
-    public static void withdraw (Account account , double withdrawAmount) {
+    public void withdraw (Account account , double withdrawAmount) {
 
         if( (account.getBalance() - withdrawAmount) < 0 ) {
             System.out.println("Only " + account.getBalance()  + " available. Withdrawal not processed");
