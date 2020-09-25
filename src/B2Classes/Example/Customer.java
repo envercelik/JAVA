@@ -11,15 +11,14 @@ public class Customer {
 
 
     //constructor
-    public Customer(String identityNumber,String password, String name, String email, String phoneNumber , Account account) {
+    public Customer(String identityNumber, String password, String name, String email, String phoneNumber, Account account) {
 
-        setIdentityNumber(identityNumber);
-        setPassword(password);
-        setName(name);
-        setEmail(email);
-        setPhoneNumber(phoneNumber);
-        setAccount(account);
-
+        this.identityNumber = identityNumber;
+        this.password = password;
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.account = account;
     }
 
 

@@ -20,7 +20,7 @@ public class Main {
  Örneğin : Televizyon kumandasının bir tuşunu düşünelim
            state : rengi , şekli , şemali,konumu
            bahaviour: televizyonu açıp  kapaması
-Bir nesne javaya aktarılırken ise--> states     : variables
+Bir nesne javaya aktarılırken ise--> states     : variables | fields | attributes
                                      behaviours : methods    olarak karşılık bulur.
 
 
@@ -31,6 +31,15 @@ Bir nesne javaya aktarılırken ise--> states     : variables
        nesne oluşturulmadan programımız çalışmaktadır.
 
 -public ise erişim belirleyicidir ve bu class a başka java dosyalarından erişilebilir manasındadır.
+
+
+Tavsiyeler :
+
+- Bir classin sadece bir sorumluluğu olmalı! (single responsibility princible)
+  Örneğin Product classi sadece ürün olmalı product ile ilgili operasyonları barındırmamalı.
+
+-Eğer bir class içerisindeki örneğin bir özellik ismini değiştirirsen ide nin sunduğu refactor özelliğini kullan.
+ Bu sayede bu özelliğin kullanıldığı her yerde gereken değişiklikler yapılmış olur.
 
 
 */

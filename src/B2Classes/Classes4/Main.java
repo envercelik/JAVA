@@ -24,7 +24,7 @@ public class Main {
 
 -Constructor : bir sınıfın yeni bir örneğini(nesne) oluşturduğumuzda çalışan metoddur.
 
--new Car(); dediğimizde (); nesne oluşturulurken çalışacak construcutor methodu ifade eder.
+-new Car(); dediğimizde Car(); nesne oluşturulurken çalışacak construcutor methodu ifade eder.
 
 -Constructur a method overloading uygulanabilir ve paramtreye göre istenen constructor çağırılabilir.
 

@@ -15,10 +15,11 @@ public class Main {
         System.out.println(Calculator.PI);
         Calculator calculator = new Calculator();
         System.out.println(calculator.PI);
+        test();
 
+    }
 
-
-
+    public static void test () {
 
     }
 
@@ -37,7 +38,7 @@ public class Main {
   turulur. Başka örnek oluşmaz. Ayrıca constructor çağrılmaz varsa static blok çalıştırılır.
  *örnek oluşturulurken ise constructor çalışır
 
-*static olmayan alandan static alanlara erişilemez.
+*static method içerisinden statik olmayan method doğrudan çağırılmaz. (nesne üzerinden çağırılabilir.)
 
 *static methodlar genellikle utility classlarda  kullanılır.
 

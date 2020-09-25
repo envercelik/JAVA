@@ -5,11 +5,11 @@ public class Account {
     private int number;
     private double balance;
 
+    //constructor
     public Account(int number, double balance) {
-        setNumber(number);
-        setBalance(balance);
+        this.number = number;
+        this.balance = balance;
     }
-
 
 
     //gettes and setter
