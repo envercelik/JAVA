@@ -28,6 +28,7 @@ Inheritance :
 
 -Inheritance nin en önemli özelliği üst sınıfın referansının alt sınıf referanslarını tutabilmesidir (polymorphism)
 
+
 -Diğer önemli özelliği ise üst sınıfın istenen metodunun alt sınıfta tekrar yazılarak özelleştirilmesidir. (override)
  *eğer bir methodun override edilmesini istemiyorsak onu final anahtar kelimesi ile tanımlamak zorundayız.
 
@@ -50,14 +51,12 @@ Ayrıntılar :
  anahtar kelimesi ile çağrılmassa java önce alt class a bakar method override edilmiş mi ? Eğer override edilmişse
  çalıştırır. Eğer edilmemişse üst classa bakar.
 
--Bir class sadece bir classi extend edebilir.
+-Bir class sadece bir class i extend edebilir.
 
--Static veya final methodlar override edilemezler. Java bu durumda doğrudan süper class taki methodu çalıştırır.
- Hangi methodu çalıştıracağı compiler time da belli olduğundan bu olaya early binding denir.
+-final değikene bir kere değer atandıktan sonra değiştirilemez. Final class extend edilemez. final method override
+ edilemez.
 
 
-- Static ve final olmayan methodlar override edilebilirler. Java hangi methodu çağıracağını alt sınıftan
-  üst sınıfa doğru arar.Java hangi methodu çalıştıracağına runtime da karar verdiğinden bu olaya late binding denir.
 
 
 Tavsiyeler  :
@@ -67,5 +66,7 @@ programa yeni özellikler eklenebilmelidir. (sustainability - sürdürülebilirl
 
 -Birbirinin alternatifi durumlarda if-else kullanılmamalıdır. (spagetti code)
 
+-Bir methodun içinde new lemekten kaçın . (Bir classa bağımlı hale gelmek) Bunun yerine üst classi özellik olarak
+ tanımlayıp nesneyi constructor ile al. (dependency injection- bir class başka bir classin referansına bağımlı)
 
 */
