@@ -1,4 +1,4 @@
-package B05InterfaceAndAbstractClass.P2Examples.Example2;
+package B05InterfaceAndAbstractClass.P2Examples.Example4;
 
 public class AgeUserCheckService implements IUserCheckService{
 

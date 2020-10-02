@@ -1,4 +1,4 @@
-package B05InterfaceAndAbstractClass.P2Examples.Example1;
+package B05InterfaceAndAbstractClass.P2Examples.Example3;
 
 public class OutsourceWorker implements IWorkable {
 
