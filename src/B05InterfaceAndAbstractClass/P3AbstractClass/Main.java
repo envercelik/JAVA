@@ -22,12 +22,16 @@ Ayrıntılar :
   önerilmez.)
   *Şunu düşünmeliyiz. Bir sınıf abstract ise ondan nesne oluşturmaya ihtiyacım olmamalı veya anlamsız olmalı.
 
--özellik eklenebilir.
+-static ve final omayan özellikler eklenebilir.
 
--static method ve özellikler tanımlanamaz.
+-Gövdesi olan metodlar tanımlanabilir.
 
 -alt classlar base classin contructorını yazmak zorundadır.
 
+-abstract class lar interfaceler gibi implement edilmez extend edilirler.(sadece 1 abstract class extend edilebilir)
+
+-interface ile abstract class arasındaki önemli farklardan biri interfaclerin birbirinden bağımsız
+ sınıflara implemente edilmesidir. Abstract class da ise ortak alanlar olmalı çünkü miras alınıyor. (mantık olarak)
 
 
 
