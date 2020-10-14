@@ -23,12 +23,23 @@ interface :
 
 -interfacelerde sadece final - static değişkenler tanımlanabilir.
 
+-interfaceler varsayılan olarak abstractır.Mehodlar ise varsayılan olarak abstract ve publictir.
+
+
 -Eğer sub classlar aynı türde ama ortak özellikleri azsa veya çok farklılaşmışsa inheritance yapısı yerine interface
  yapısı tercih edilebilir.
 
 -Eğer bir classa birden fazla implementasyon yapmak istoyorsak interface tercih edilir. Çünkü java da çoklu kalıtıma
  izin verilmez.
 
+-interfacelere default anahtar kelimesi ile gövdeli method tanımlanabilir. Default methodlar override edilmek zorunda
+ değildir. (java 8 ve sonrası)
+
+ -interfacelerde gövdeli static methodlar bulunabilir (java 8 ve sonrası)
+
+-interfaceler içerisinde static veya initialize bloklar tanımlanamaz.
+
+-bir interface başka bir interfaceden kalıtılabilir.
 
 
  */
