@@ -1,4 +1,4 @@
-package B08Collections.P01Collection2;
+package B08Collections.P1Collections.P05HashMap;
 
 
 import java.util.HashMap;

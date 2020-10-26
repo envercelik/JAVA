@@ -1,4 +1,4 @@
-package B08Collections.P01Collection1;
+package B08Collections.P2Examples.E01;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -40,24 +40,3 @@ public class Main {
 
 }
 
-
-
-/*
-
--Koleksiyonlar arkaplanda dizileri yöneten yapılardır. Bir manada dizilerin geliştirilmiş halidir.
- Örneğin dizilerde sonrandan genişletme yapılamaz ama Collection ile diziler genişleyebilir.
- Arka planda yeni bir dizi oluşturur ve elemanları kopyalar.
-
-*Yaygın olarak diziler yerine koleksiyonlar kullanılır.
-
--Bir Collection sınıfı olan arraylist ile  elaman ekledikçe genişleyen sildikçe küçülen istediğimizi veri tipinde
- bir dizi tanımlayabiliriz. Eğer veri tipi belirtmessek default veri tipi Object tir.
-
--Arraylist generic sınıftır.Bu sayede isteğimiz veri tipinde Arraylist oluşturabiliriz.(tip güveli arraylist)
-
-
-
-
-
-
- */
