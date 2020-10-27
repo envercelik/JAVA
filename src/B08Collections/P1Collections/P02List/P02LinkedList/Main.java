@@ -1,4 +1,4 @@
-package B08Collections.P1Collections.P03LinkedList;
+package B08Collections.P1Collections.P02List.P02LinkedList;
 
 import java.util.LinkedList;
 

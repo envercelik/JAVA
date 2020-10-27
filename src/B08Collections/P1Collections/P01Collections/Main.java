@@ -28,6 +28,15 @@ Collection framework :
  Ayrıca colection interfaceyi implemente etmeyen Map interface bulunur.
  Bu interfacelerden olşuturulan somut sınıflar ise veri yapılarımızdır. örn : ArrayList
 
+
+ Iterable -> Collection -> List      -> Vektor,ArrayList,LinkedList
+                        -> Set       -> HashSet ,LinkedHashSet ,TreeSet
+                        -> Queue     -> LinkedList, PriorityQueue
+
+
+Map -> HashMap ,HasTable ,LinkedHashMap,TreeMap
+
+
 *Collection framework, interface ve sınıfları generictir.
 
 

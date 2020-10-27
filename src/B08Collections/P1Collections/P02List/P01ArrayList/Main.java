@@ -1,4 +1,4 @@
-package B08Collections.P1Collections.P02ArrayList;
+package B08Collections.P1Collections.P02List.P01ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
