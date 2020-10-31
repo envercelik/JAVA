@@ -1,10 +1,7 @@
-package B08Collections.P1Collections.p05Stack;
+package B08Collections.P1Collections.P05Stack;
 
 
-import java.util.Enumeration;
-import java.util.ListIterator;
 import java.util.Stack;
-import java.util.Vector;
 
 public class Main {
     public static void main(String[] args) {

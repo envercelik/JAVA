@@ -60,6 +60,22 @@ public class Main {
             System.out.println(listIterator.previous());
         }
 
+        System.out.println("***********************************************");
+
+        String[] channels = {"radio1","radio2","radio3","radio4"};
+
+        Radio radio = new Radio(channels);
+
+
+        for (String channel : radio) {
+            System.out.println(channel);
+        }
+        //bu durumda aslında radio nun channel arraylisti üzerinde bizim channel arraylisti için yazdığımız iterator gezer.
+        //fuck it
+
+        Iterator<String> iterator = radio.iterator(); //önceki kullanımlar ile aynı - bunun ile de gezebiliriz.
+
+
 
 
 
@@ -91,7 +107,24 @@ Iterator :
  previous() methodu yoktur. Yani elemanlar üzerinde ileri doğru gizindik diyelim geri dönemeyiz.
 
 
-*foreach elemanar üzerinde Iterator ile gezinir.
+*foreach elemanlar üzerinde Iterator ile gezinir.
+*Map üzerinde iterator çalışmaz çünkü Map lerin Iterable interfacesi ile bir alakası yoktur. Bu nedenle
+ Map ler üzerinde gezinmek için öncelikle set e dönüştürürüz.
+
+
+
+
+***Kendi nesnelerimizin listeleri üzerinde Iterator ile gezinmek istersek Iterable interfacesini sınıfımıza
+   implemente etmeliyiz.
+
+   -Iterable sınıfını implemente eden sınıflar iterator() methodunu override etmek zorundadır. Bu method
+    bir Iterator nesnesi döndüğünden kendimize ozel Iterator interfacesini implemente eden class yazmamız gerekir.
+
+   -Kısaca Iterable implemente edilir. Override edilen iterator() methodu ise Iterator nesnesi döndürür.
+   (bu iterator nesnesi -- nesnelerimizin listeleri üzerinde foreach ile gezindiğimizde otomatik kullanılır.)
+
+   -Örneğin ArrayList , LinkedList ...  sınıflarında da benzer yapı kullanılır.
+
 
 
 */
