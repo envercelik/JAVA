@@ -1,4 +1,4 @@
-package B11InputOutput.P3Throw;
+package B11InputOutput.P1ExceptionHandling.P3Throw;
 
 
 

@@ -1,4 +1,4 @@
-package B11InputOutput.P4ReadWrite;
+package B11InputOutput.P2InputOutput.P4ReadWrite;
 
 import java.io.*;
 import java.util.Scanner;

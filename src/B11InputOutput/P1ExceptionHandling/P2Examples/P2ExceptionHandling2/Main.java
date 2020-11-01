@@ -1,4 +1,4 @@
-package B11InputOutput.P2ExceptionHandling2;
+package B11InputOutput.P1ExceptionHandling.P2Examples.P2ExceptionHandling2;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
