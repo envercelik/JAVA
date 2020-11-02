@@ -17,7 +17,8 @@ public class Main {
  Bu sayede eğer hata olmussa bir işlem hata olmamışsa başka işlem yaparak yolumuza devam ederiz.  (exception handling)
 
 *try bloğundaki hata cath bloğuna parametre olarak verilir.
-*tyr-catch yanına birde finaly bloğu varsa bu blok her türlü çalışır
+*tyr-catch yanına birde finaly bloğu varsa bu blok her türlü çalışır-veritabanı bağlantısı kesme , dosya kapama gibi
+ durumlar için kullanışlıdır.
 *birden fazla catch bloğu ile birden fazla türde exception yakalanabilir ve hata türüne göre işlem yapılabilir.
 
 

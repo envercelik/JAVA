@@ -1,4 +1,4 @@
-package B11InputOutput.P1ExceptionHandling.P3Throw;
+package B11InputOutput.P1ExceptionHandling.P2Throw;
 
 public class AccountManager {
     private double balance;

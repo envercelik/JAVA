@@ -1,4 +1,4 @@
-package B11InputOutput.P1ExceptionHandling.P2Examples.E04;
+package B11InputOutput.P1ExceptionHandling.P3Examples.E04;
 
 public class Main {
 
