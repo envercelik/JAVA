@@ -83,6 +83,10 @@ artık bu sınıfın örnekleri faklı.
 Bu nedenle bir sınıfa serialVersionUID atanır ve java bu sayede bir classin değiştiğini anlar.
 
 
+*Eğer özellik isimlerine transient anahtar kelimesi eklenirse bu alanlar serileştirilmez. Dosyadan okuma yaptığımızda ise
+bu alanlara  veri tipine göre varsayılan değerler atanır. Bu sayede gereksiz özellikleri serileştirmeyerek dosya
+boyutu çok büyütmemiş oluruz.
+
 
 
 
